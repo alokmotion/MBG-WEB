@@ -23,9 +23,19 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import NewsVid1 from "./NewsVid1.mp4"
-import NewsVid2 from "./NewsVid2.mp4"
-import NewsVid3 from "./NewsVid3.mp4"
+import NewsVid1 from "./NewsVid1.mp4";
+import NewsVid2 from "./NewsVid2.mp4";
+import NewsVid3 from "./NewsVid3.mp4";
+import instaAuto from "./instaAuto.png";
+import chatgpt from "./chatgpt.png";
+import socialmediamarketing from "./socialmediamarketing.png";
+import digitalMarketing from "./digitalMarketing.png";
+import WebDev from "./WebDev.png";
+import seo from "./seo.png";
+import Test1 from "./Test1.mp4"
+import Test2 from "./Test2.mp4"
+
+ 
 
 export {
   airbnb,
@@ -56,4 +66,15 @@ export {
   NewsVid1,
   NewsVid2,
   NewsVid3,
+  instaAuto,
+  chatgpt,
+  socialmediamarketing,
+  digitalMarketing,
+  WebDev,
+  seo,
+  Test1,
+  Test2,
+
+  
+
 };

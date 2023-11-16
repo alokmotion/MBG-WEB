@@ -28,7 +28,7 @@ const Hero = () => {
               className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[90px] leading-[75px] "
             >
               Grow Your Business With <br className=" sm:block hidden " />{" "}
-              <span className="text-gradient "> Chat Automation </span>
+              <span className="text-[#525FE1] "> Chat Automation </span>
             </motion.h1>
 
             <motion.p
@@ -64,7 +64,7 @@ const Hero = () => {
                   duration: 1,
                 }}
                 href="#_"
-                className="relative px-5 py-3 overflow-hidden  font-medium w-[220px] flex justify-center  text-gray-600 bg-white border border-b-4 border-indigo-500  border-gray-100 rounded-lg shadow-inner group"
+                className="relative px-5 py-3 overflow-hidden  font-medium w-[220px] flex justify-center  text-gray-600 bg-white border border-b-4 border-[#F1C93B]   rounded-lg shadow-inner group"
               >
                 <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
                 <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
@@ -116,7 +116,7 @@ const Hero = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          // autoPlay
+          autoPlay
           controls
           className="object-contain h-[fit-content] sm:h-80 lg:h-96 xl:h-112 2xl:h-128 border-10 rounded-lg "
         >
@@ -143,7 +143,7 @@ const Hero = () => {
                 duration: 1,
               }} className="flex-1 justify-center text-center font-poppins font-semibold  text-[39px] text-black  leading-normal ">
           Grow Your Business With <br className=" sm:block hidden " />{" "}
-          <span className="text-gradient "> Chat Automation </span>
+          <span className="text-[#525FE1]  "> Chat Automation </span>
         </motion.h1>
 
         <p

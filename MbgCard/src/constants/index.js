@@ -4,10 +4,12 @@ export const navLinks = [
   {
     id: "home",
     title: "Home",
+    href: "/",
   },
   {
     id: "about",
     title: "About",
+    href: "https://mbgcard.in/about-us/",
   },
   {
     id: "services",
@@ -15,9 +17,11 @@ export const navLinks = [
   },
   {
     id: "contactUs",
-    title: "Contact Us",
+    title: "ContactUs", // Updated title
+    href: "/contactus", // Updated href (replace with your actual contact page URL)
   },
 ];
+
 
 export const features = [
   {

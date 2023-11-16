@@ -1,41 +1,19 @@
-import {Navbar,Hero, Stats,Services,News ,CardDeal,Testimonials,Clients,CTA,Footer} from './components';
-import styles from  './style';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home'
+import Contactuspage from './pages/Contactuspage';
 
-
-const App = () => (
-    <div className=" w-full overflow-hidden">
-      <div className={`${styles.paddingX} {${styles.flexCenter}} shadow-lg `}>
-        <div className={`${styles.boxWidth} `}>
-          <Navbar/>
-        </div>
-      </div>
-
-      {/* hero */}
-
-      <div className={`  ${styles.flexStart}`} >
-        <div className={`${styles.boxWidth}`}>
-          <Hero/>
-        </div>
-      </div> 
-      
-      
-       <div className={` ${styles.paddingX} ${styles.flexStart}`} >
-        <div className={`${styles.boxWidth}`}>
-          <News /> 
-          <Services />
-          <Stats />
-          <CardDeal />
-          <Testimonials />
-          <Clients />
-          <CTA />
-          <Footer />
-        </div>
-      </div>
-      
-
-    </div>
-
-  );
-
+const App = () => {
+  return (
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/contactus" element={<Contactuspage />} />
+    </Routes>
+    
+    </BrowserRouter>
+   
+  )
+}
 
 export default App
