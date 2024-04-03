@@ -253,13 +253,13 @@ const Footer = () => {
           <p className="text-white text-sm">
             Copyright © 2023
             <a
-              href="https://mbgcard.in/"
+              href="https://alokmotion.in/"
               target="_blank"
               className="hover:underline mx-1"
             >
               MBGCard
             </a>
-            All Rights Reserved.
+            All Rights Reserved. Made with ❤️ by AlokMotion
           </p>
         </div>
       </footer>
