@@ -34,6 +34,9 @@ import WebDev from "./WebDev.png";
 import seo from "./seo.png";
 import Test1 from "./Test1.mp4"
 import Test2 from "./Test2.mp4"
+import Test3 from "./Test3.mp4"
+import Test4 from "./Test4.mp4"
+import Test5 from "./Test5.mp4"
 
  
 
@@ -74,6 +77,10 @@ export {
   seo,
   Test1,
   Test2,
+  Test3,
+  Test4,
+  Test5,
+  
 
   
 

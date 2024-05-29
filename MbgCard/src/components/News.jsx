@@ -30,7 +30,7 @@ const News = () => {
             We are in news
           </h1>
 
-          <p className={` font-poppins font-normal mt-5 sm:mt-14 text-[18px] leading-[30.8px] text-black`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptates accusamus iusto minus alias. Maiores saepe quibusdam hic nihil vitae!</p>
+          <p className={` font-poppins font-normal mt-5 sm:mt-14 text-[18px] leading-[30.8px] text-black`}>MBG Card is featured in top news outlets for pioneering digital transformation solutions that boost business efficiency and customer engagement.</p>
         </div>
       </motion.div>
 

@@ -27,9 +27,7 @@ const Featured = () => {
           <p
             className={` font-poppins font-normal mt-5 sm:mt-14 text-[18px] leading-[30.8px] text-black`}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            voluptates accusamus iusto minus alias. Maiores saepe quibusdam hic
-            nihil vitae!
+            MBG Card is recognized by major platforms like YourStory and The Times of India for revolutionizing business growth and customer engagement through digital innovation.
           </p>
         </div>
       </motion.div>

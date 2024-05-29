@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import style from "../style";
 import styled, { keyframes } from "styled-components";
 import PropTypes from "prop-types";
-import { Test1, Test2 } from "../assets";
+import { Test1, Test2,Test3,Test4,Test5 } from "../assets";
 
 const WrapperContainer = styled.div`
   height: 100%;
@@ -129,7 +129,7 @@ Marquee.defaultProps = {
 
 function VideoTest() {
   // Example video URLs
-  const VIDEO_LIST = [Test1, Test2, Test1, Test2, Test1, Test2];
+  const VIDEO_LIST = [Test1, Test2, Test3,Test4,Test5, Test1, Test2, Test3,Test4,Test5,];
 
   return (
     <section
@@ -158,8 +158,7 @@ function VideoTest() {
             <p
               className={` font-poppins font-normal mt-5 sm:mt-14 text-[18px] leading-[30.8px] text-black`}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-              voluptates accusamus iusto minus alias.
+              Boost your business with MBG Card's cutting-edge digital solutions, proven to enhance customer engagement and increase visibility.
             </p>
           </div>
         </motion.div>

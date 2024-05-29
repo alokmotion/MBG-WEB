@@ -30,6 +30,12 @@ const cards = [
     excerpt: "Await you",
   },
   {
+    id: 5,
+    url: digitalMarketing,
+    title: " Digital Marketing    ",
+    excerpt: "Await you",
+  },
+  {
     id: 6,
     url: WebDev,
     title: "Website Development",
@@ -42,12 +48,7 @@ const cards = [
     title: " Chat GPT",
     excerpt: "Await you",
   },
-  {
-    id: 5,
-    url: digitalMarketing,
-    title: "Digital marketing    ",
-    excerpt: "Await you",
-  },
+ 
 
   {
     id: 8,
@@ -61,12 +62,7 @@ const cards = [
     title: "Google Ads",
     excerpt: "Await you",
   },
-  {
-    id: 7,
-    url: socialmediamarketing,
-    title: "Social media marketing",
-    excerpt: "Await you",
-  },
+
 ];
 
 const Services = () => {

@@ -47,8 +47,8 @@ import {
   
       <div className={`  ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Pricing />
-          <Faq />
+          {/* <Pricing /> mbg */}
+          {/* <Faq />  mbg */}
           <Footer />
         </div>
       </div>
