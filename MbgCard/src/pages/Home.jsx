@@ -4,13 +4,12 @@ import {
     Stats,
     Services,
     News,
-    Testimonials,
     Certificate,
     Awards,
     Footer,
     Featured,
-    Pricing,
-    Faq,
+
+    
     VidTestimonials,
   } from "../components";
   
