@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import styles from "../style";
-import { discount, robot } from "../assets";
-import GetStarted from "./GetStarted";
+
 
 const Hero = () => {
   return (
