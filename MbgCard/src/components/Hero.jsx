@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import styles from "../style";
-
+import { discount, robot } from "../assets";
+import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
                 ease: "easeIn",
                 duration: 1,
               }}
-              className="flex-1 font-poppins font-semibold ss:text-[50px] text-[40px] text-black ss:leading-[70px] leading-[55px] "
+              className="flex-1 font-poppins font-semibold ss:text-[42px] text-[52px] text-black ss:leading-[60px] leading-[75px] "
             >
               Grow Your Business With <br className=" sm:block hidden " />{" "}
               <span className="text-[#525FE1] "> Chat Automation </span>
