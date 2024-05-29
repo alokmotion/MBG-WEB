@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Faq.css";
 // import Header from "./Header";
-import FAQ from "./faqf";
+// import FAQ from "./faqf";
 
 export default function Faq() {
   const [faqs, setFaqs] = useState([
